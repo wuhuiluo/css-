@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">头</div>
+    <div class="container">
+        <div class="left">左</div>
+        <div class="right">右</div>
+        <div class="middle">中</div>
+    </div>
+    <div class="footer">底</div>
+</body>
+
+</html>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .container div {
+        position: absolute;
+    }
+
+    .header,
+    .footer {
+        background-color: red;
+        height: 40px;
+        width: 100%;
+    }
+
+    .left {
+        width: 200px;
+        left: 0;
+        background-color: pink;
+    }
+
+    .middle {
+        left: 200px;
+        right: 250px;
+        background-color: yellow;
+    }
+
+    .right {
+        width: 250px;
+        right: 0;
+        background-color: aqua;
+    }
+
+    /* .middle {
+        background: yellow;
+    }
+
+    .header,
+    .footer {
+        background-color: red;
+        height: 40px;
+        width: 100%;
+    }
+
+    .left {
+        width: 200px;
+        float: left;
+        background-color: pink;
+    }
+
+    .right {
+        width: 250px;
+        float: right;
+        background-color: aqua;
+    } */
+
+    /* .footer {
+        clear: both;
+    }
+
+    .container div {
+        position: relative;
+        float: left;
+    }
+
+    .container {
+        padding-left: 200px;
+        padding-right: 250px;
+    }
+
+    .left {
+        left: -200px;
+        margin-left: -100%;
+        width: 200px;
+        background-color: pink;
+
+    }
+
+    .right {
+        margin-left: -250px;
+        left: 250px;
+        width: 250px;
+        background-color: aqua;
+    }
+
+    .middle {
+        width: 100%;
+        background-color: yellow;
+    } */
+
+    /* .header,
+    .footer {
+        background-color: red;
+        height: 40px;
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .left {
+        width: 200px;
+        background-color: pink;
+    }
+
+    .middle {
+        background-color: yellow;
+        flex: 1;
+    }
+
+    .right {
+        background: aqua;
+        width: 300px;
+    } */
+</style>
