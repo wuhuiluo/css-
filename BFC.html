@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner">1</div>
+        <div class="bfc">
+            <div class="inner">2</div>
+        </div>
+        <div class="inner">3</div>
+    </div>
+    <!-- <div class="container">
+        <div class="inner">
+        </div>
+    </div> -->
+</body>
+
+</html>
+<style>
+    .container {
+        background-color: green;
+        overflow: hidden;
+    }
+
+    .inner {
+        background-color: lightblue;
+        margin: 10px 0;
+    }
+
+    .bfc {
+        overflow: hidden;
+    }
+
+    /* * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container {
+        overflow: hidden;
+        border: 10px solid red;
+    }
+
+    .inner {
+        float: left;
+        background-color: #08BDEB;
+        height: 100px;
+        width: 100px;
+    } */
+</style>
